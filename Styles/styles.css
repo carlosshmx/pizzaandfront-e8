@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.label{
+    background-color: #222222;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-family: 'Roboto';
+}
+
+header{
+
+}
+
+.logo{
+    display: flex; 
+}
+
+.letras-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.l1{
+    color: #39B24A;
+}
+
+.l3{
+    color: #FC200C;
+}
+
+nav{
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color: #F3F3F3;
+    font-size: 16px;
+}
+
+footer{
+    flex-direction: row-reverse;
+}
+
+footer nav{
+    height: 120px;
+    flex-direction: column;
+    align-items: flex-start;
+}
